@@ -6,7 +6,7 @@
 
 
    <select id="queryParseByLimitAndOffset" resultType="edu.uestc.transformation.express.Parse">
-       SELECT id,title,answer2,parse from xkb_gaokao_questions LIMIT #{limit} offset #{offset}
+       SELECT id,title,answer2,parse from tjc LIMIT #{limit} offset #{offset}
    </select>
     <update id="updateParse" parameterType="edu.uestc.transformation.express.Parse">
         UPDATE xkb_gaokao_questions set parse=#{parse} WHERE id=#{id}
