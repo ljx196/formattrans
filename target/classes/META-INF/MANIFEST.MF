@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Main-Class: edu.uestc.transformation.express.ExpressionTransformer
+Class-Path: log4j-core-2.13.3.jar jsoup-1.11.3.jar jackson-core-2.6.3.ja
+ r fastjson-1.2.58.jar protobuf-java-3.6.1.jar commons-lang3-3.0.jar err
+ or_prone_annotations-2.3.4.jar jackson-annotations-2.6.3.jar listenable
+ future-9999.0-empty-to-avoid-conflict-with-guava.jar httpclient-4.5.12.
+ jar mysql-connector-java-8.0.16.jar httpcore-4.4.13.jar checker-qual-2.
+ 10.0.jar mybatis-3.5.4.jar jackson-databind-2.6.3.jar log4j-api-2.13.3.
+ jar failureaccess-1.0.1.jar gson-2.8.0.jar jackson-datatype-guava-2.6.3
+ .jar commons-logging-1.2.jar jsch-0.1.54.jar j2objc-annotations-1.3.jar
+  commons-codec-1.11.jar guava-28.2-jre.jar jdom2-2.0.5.jar jsr305-3.0.2
+ .jar
+

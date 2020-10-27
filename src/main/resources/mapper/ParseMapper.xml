@@ -1,0 +1,21 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="edu.uestc.transformation.express.ParseMapper">
+
+
+   <select id="queryParseByLimitAndOffset" resultType="edu.uestc.transformation.express.Parse">
+       SELECT id,title,answer2,parse from xkb_gaokao_questions LIMIT #{limit} offset #{offset}
+   </select>
+    <update id="updateParse" parameterType="edu.uestc.transformation.express.Parse">
+        UPDATE xkb_gaokao_questions set parse=#{parse} WHERE id=#{id}
+    </update>
+
+    <select id="queryTitleByLimitAndOffset" resultType="edu.uestc.transformation.express.Parse">
+        SELECT id,title from xkb_gaokao_questions LIMIT #{limit} offset #{offset}
+    </select>
+    <update id="updateTriples" parameterType="edu.uestc.transformation.express.Parse">
+        UPDATE xkb_gaokao_questions set json=#{json},triples=#{triples} WHERE id=#{id}
+    </update>
+</mapper>

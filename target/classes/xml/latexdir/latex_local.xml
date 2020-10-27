@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<latexs>
+   <pattern tag="Array">\\\{\{\\begin\{array\}\{\*\{20\}\{c\}\}.*?\\end\{array\}\}</pattern>
+   <pattern tag="Array_15">\\\{\\begin\{array\}\{\*\{35\}\{l\}\}.*?\\\\\\end\{array\}</pattern>
+   <pattern tag="Array_2">\\\{\\begin\{matrix\}.*\\end\{matrix\}</pattern>
+   <pattern tag="Array_3">(\$|)\\\{ \\begin\{gathered\}.+?\\\\.*? \\\\ \\end\{gathered\}(\$|)</pattern>
+   <pattern tag="Array_4">(\$|)\\opencurlybrace \\begin\{matrix\}.+?\\\\.+? \\end\{matrix\}(\$|)</pattern>
+   <pattern tag="Array_5">(\$|)\\\{\{\\begin\{array\}\{\*\{20\}\{c\}\} (\{.+?\}\\\\)+? \{.*?\} \\end\{array\}\}(\$|)</pattern>
+   <pattern tag="Array_5">(\$|)\\\{\{\\begin\{array\}\{\{20\}\{c\}\} (\{.+?\}\\\\)+? \{.*?\} \\end\{array\}\}(\$|)</pattern>
+   <pattern tag="Array_6">(\$|)\\\{\\begin\{array\}\{\*\{20\}\{c\}\} (\{.+?\}\\\\)+? \{.*?\} \\end\{array\}(\$|)</pattern>
+   <pattern tag="Array_7">(\$|)\\\{\\begin\{array\}\{(l|1)\}.+?\\\\\\.+?\\end\{array\}(\$|)</pattern>
+   <pattern tag="Array_8">(\$|)\\\{\\begin\{array\}\{(l|1)\}.+?\\\\.+?\\end\{array\}(\$|)</pattern>
+   <pattern tag="Array_16">(\$|)\\\{\{\\begin\{array\}\{(l|1)\}.+?\\\\.+?\\end\{array\}\}(\$|)</pattern>
+   <pattern tag="Array_11">(\$|)\\\{\\begin\{aligned\}.+?\\end\{aligned\}(\$|)</pattern>
+   <pattern tag="Array_12">(\$|)\\\{\\begin\{align\}.+?\\end\{align\}(\$|)</pattern>
+   <pattern tag="Array_14">(\$|)\\begin\{cases\}.+?\\end\{cases\}(\$|)</pattern>
+   <pattern tag="Array_9">\$.+?\\\{\\begin\{array\}\{(l|1)\}.+?\\\\.+?\\end\{array\}\$</pattern>
+   <pattern tag="Array_10">\$.+?\\\{\\begin\{aligned\}.+?\\\\.+?\\end\{aligned\}\$</pattern>
+   <pattern tag="Array_13">(\$|)\\\{\{\\begin\{array\}\{\*\{20\}\{l\}\}.*?\\end\{array\}\}(\$|)</pattern>
+   <pattern tag="bar">\\bar</pattern>
+   <pattern tag="补集">(\\complement)|(\{C\}_\{[a-zA-Z]\})|C_([A-Z]|\{)|C_\{[A-Z]\}[A-Z]</pattern>
+   <pattern tag="分式">\\frac\{</pattern>
+   <pattern tag="根式">\\sqrt</pattern>
+   <pattern tag="幂">\^\{</pattern>
+   <pattern tag="下标">(?&lt;!log)_\{</pattern>
+   <!--<下面向量的标准latex写法中是需要有"{}"的,但是在测试ah201214l时,存在没有"{}"的单个字母情况,现在将"{}"不做必要存在条件,若以后测试中向量的latex转换有问题,可修改原来的版本>-->
+   <pattern tag="向量">\\(vec|overline|overrightarrow)((\{.+?\})| [a-z])</pattern>
+   <pattern tag="求和">\\sum\\limits_</pattern>
+   <pattern tag="Trigonometric">(sin|cos|tan|cot|sec|csc)</pattern>
+   <pattern tag="Log">(\\|)(ln|lg)</pattern>
+   <pattern tag="Log2">(\{\{\\log\}_.+?\})|(log_)</pattern>
+   <pattern tag="Adjoin" describe="4ab或者xy这种连写表达式在÷之后语义有问题">/[a-z0-9]</pattern>
+   <pattern tag="Subscript" describe="把x1这种转换成x_1">[a-z][0-9]+</pattern>
+   <pattern tag="more">\{\{[.[^\{\}]]*\}\}</pattern>
+   <pattern tag="none">\{[.[^\{\}]]*\}</pattern>
+</latexs>

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root createtime="2014/1/3" modifytime="2015/09/28 13:38:00" version="0.1">
+
+
+    <similar tag="x轴正半轴">
+        <value>极轴</value>
+    </similar>
+    <similar tag="原点">
+        <value>极点</value>
+    </similar>
+
+    <similar tag="x轴">
+        <value>横轴</value>
+        <value>x坐标轴</value>
+        <value>X轴</value>
+    </similar>
+    <similar tag="y轴">
+        <value>纵轴</value>
+        <value>竖轴</value>
+        <value>y坐标轴</value>
+        <value>Y轴</value>
+        <value>虚轴(?=对称)</value>
+    </similar>
+
+    <!--<similar tag="函数">-->
+    <!--<value>曲线(?=(y=))</value>-->
+    <!--</similar>-->
+
+
+    <similar tag="y轴负半轴">
+        <value>y轴非正半轴</value>
+        <value>Y轴非正半轴</value>
+    </similar>
+
+    <similar tag="p">
+        <value>命题甲</value>
+    </similar>
+
+    <similar tag="q">
+        <value>命题乙</value>
+    </similar>
+
+    <similar tag="取值范围">
+        <value>取值集合</value>
+    </similar>
+
+    <similar tag="x轴负半轴">
+        <value>x轴非正半轴</value>
+        <value>X轴非正半轴</value>
+    </similar>
+
+    <similar tag="横坐标">
+        <value>x坐标</value>
+    </similar>
+    <similar tag="证明:">
+        <value>试说明</value>
+        <value>求证:</value>
+    </similar>
+    <similar tag="纵坐标">
+        <value>y坐标</value>
+    </similar>
+
+    <similar tag="HL">
+        <value>斜边直角边</value>
+    </similar>
+    <similar tag="勾股定理">
+        <value>毕达哥拉斯定理</value>
+    </similar>
+    <similar tag="SSS">
+        <value>边边边判定定理</value>
+        <value>边边边</value>
+    </similar>
+    <similar tag="SAS">
+        <value>边角边判定定理</value>
+        <value>边角边</value>
+    </similar>
+    <similar tag="AAS">
+        <value>角角边判定定理</value>
+        <value>角角边</value>
+    </similar>
+    <similar tag="ASA">
+        <value>角边角判定定理</value>
+        <value>角边角</value>
+    </similar>
+
+    <similar tag="△">
+        <value>\\bigtriangleup</value>
+        <value>\\vartriangle</value>
+        <value>\\triangle</value>
+        <value>\\Delta</value>
+        <value>bigtriangleup</value>
+        <value>∆</value>
+    </similar>
+
+    <similar tag="Rt△">
+        <value>rt△</value>
+        <value>RT△</value>
+        <value>rT△</value>
+    </similar>
+    <similar tag="∠">
+        <value>\\angle</value>
+    </similar>
+    <similar tag="°">
+        <value>\^\{\\degree\}</value>
+        <value>\^\{\s*\\circ\s*\}</value>
+        <value>\^\\circ</value>
+        <value>\\degree</value>
+        <value>\^°</value>
+        <value>∘</value>
+    </similar>
+    <similar tag="'">
+        <value>’</value>
+        <value>‘</value>
+        <value>\^\\prime</value>
+        <value>\^'</value>
+        <value>′</value>
+        <value>\\prime</value>
+    </similar>
+    <similar tag="缩短">
+        <value>压缩</value>
+    </similar>
+    <similar tag="⊥">
+        <value>\\perp</value>
+        <value>\\bot</value>
+        <value>丄</value>
+    </similar>
+
+    <!--<similar tag="平行四边形">-->
+    <!--<value>▱</value>-->
+    <!--</similar>-->
+    <similar tag="点">
+        <value>一动点</value>
+    </similar>
+    <similar tag="∥">
+        <value>//</value>
+        <value>\\parallel</value>
+    </similar>
+    <similar tag="≌">
+        <value>\\cong</value>
+        <value>≅</value>
+    </similar>
+    <similar tag="⊙">
+        <value>\\odot</value>
+        <value>\\bigodot</value>
+    </similar>
+    <similar tag="∽">
+        <value>\\sim</value>
+        <value>∽</value>
+    </similar>
+    <similar tag="SHADOW">
+        <value>shadow</value>
+    </similar>
+    <similar tag="≥">
+        <!--<value>大于等于</value>-->
+        <value>\\geqslant</value>
+        <value>\\geq</value>
+        <value>\\ge</value>
+    </similar>
+    <similar tag="⇒">
+        <value>\\Rightarrow</value>
+        <value>\\rightarrow</value>
+    </similar>
+    <similar tag="=">
+        <!--<value>等于</value>-->
+        <value>＝</value>
+    </similar>
+    <similar tag="≠">
+        <!--<value>不等于</value>-->
+        <value>\\neq</value>
+        <value>\\ne(?!g)</value>
+    </similar>
+    <similar tag="非">
+        <value>\\neg</value>
+    </similar>
+    <similar tag="≈">
+        <!--<value>约等于</value>-->
+        <!--<value>约等</value>-->
+        <value>\\approx</value>
+    </similar>
+    <similar tag="≡">
+        <!--<value>恒等于</value>-->
+        <!--<value>恒等</value>-->
+        <value>\\equiv</value>
+    </similar>
+    <similar tag="＞">
+        <value>＞</value>
+        <value>﹥</value>
+        <value>\\gt</value>
+        <value>\\textgreater</value>
+    </similar>
+    <similar tag="＜">
+        <value>＜</value>
+        <value>《</value>
+        <value>＜</value>
+        <value>\\lt</value>
+        <value>&amp;lt</value>
+        <value>\\textless</value>
+    </similar>
+
+    <similar tag="≤">
+        <!--<value>小于等于</value>-->
+        <value>\\leqslant</value>
+        <value>\\leq</value>
+        <value>\\le(?!(ft))</value>
+        <value>⩽</value>
+    </similar>
+    <similar tag="!">
+        <value>\\!</value>
+    </similar>
+    <similar tag="Pi">
+        <value>圆周率</value>
+        <value>\\pi</value>
+        <value>π</value>
+        <value>\\Pi</value>
+    </similar>
+    <similar tag="∪">
+        <value>\\cup</value>
+        <value>\\bigcup</value>
+    </similar>
+    <similar tag="圆">
+        <value>⊙</value>
+        <value>☉</value>
+    </similar>
+    <similar tag="∩">
+        <value>\\cap</value>
+        <value>\\bigcap</value>
+    </similar>
+    <similar tag="∞">
+        <value>\\infty</value>
+        <value>infty</value>
+    </similar>
+
+    <similar tag="|">
+        <value>│</value>
+    </similar>
+    <similar tag="∽">
+        <value>\\backsim</value>
+    </similar>
+
+    <similar tag="∈">
+        <!--<value>属于</value>-->
+        <value>\\in(?!t_|fty)</value>
+    </similar>
+    <similar tag="N*">
+        <value>\{\{N\}\^\{\*\}\}</value>
+        <value>\{\{N\}\^\{\{\*\}\}\}</value>
+        <value>\{\{N\}(\^|_)\{\+\}\}</value>
+        <value>\{\{\\mathbf\{N\}\}\^\{\*\}\}</value>
+        <value>\{N\^\*\}</value>
+        <value>N\^\*</value>
+        <value>N\^\+</value>
+        <value>N\^\star</value>
+        <value>N\^\{\*\}</value>
+    </similar>
+    <similar tag="∅">
+        <value>\\varnothing</value>
+        <value>\\emptyset</value>
+        <value>Φ</value>
+    </similar>
+    <similar tag="max">
+        <value>\\max</value>
+    </similar>
+    <similar tag="min">
+        <value>\\min</value>
+    </similar>
+    <similar tag="任意">
+        <value>\\forall</value>
+    </similar>
+    <similar tag="存在">
+        <value>\\exists</value>
+    </similar>
+    <similar tag="frac">
+        <value>dfrac</value>
+    </similar>
+    <similar tag="(">
+        <value>（</value>
+    </similar>
+    <similar tag=")">
+        <value>）</value>
+    </similar>
+    <similar tag="[">
+        <value>［</value>
+    </similar>
+    <similar tag="]">
+        <value>］</value>
+    </similar>
+    <similar tag="∉">
+        <!--<value>不属于</value>-->
+        <value>\\notin</value>
+    </similar>
+    <similar tag="%">
+        <value>\%</value>
+        <value>\\%</value>
+        <value>\\\%</value>
+        <value>\\\\%</value>
+    </similar>
+    <similar tag="-">
+        <value>−</value>
+        <value>﹣</value>
+        <value>－</value>
+        <value>–</value>
+        <value>-</value>
+
+    </similar>
+    <similar tag="+">
+        <value>＋</value>
+    </similar>
+    <similar tag="⊕">
+        <value>\\oplus</value>
+    </similar>
+    <similar tag="⊗">
+        <value>\\otimes</value>
+    </similar>
+    <similar tag="⊂">
+        <value>\\subset(?!eq|neqq)</value>
+    </similar>
+    <similar tag="⊃">
+        <value>\\varsupsetneq</value>
+    </similar>
+    <similar tag="⊆">
+        <value>\\subseteq(?!q)</value>
+    </similar>
+    <similar tag="⊇">
+        <value>\\supseteq(?!q)</value>
+        <value>\\supseteqq</value>
+    </similar>
+    <similar tag="⊊">
+        <value>\\subsetneq(?!q)</value>
+        <value>\\subsetneqq</value>
+        <value>\\varsubsetneq(?!q)</value>
+        <value>\\varsubsetneqq</value>
+    </similar>
+    <similar tag="⊋">
+        <value>\\supsetneqq</value>
+    </similar>
+    <similar tag="σ">
+        <value>\\sigma</value>
+    </similar>
+    <similar tag="Γ">
+        <value>\\Gamma</value>
+    </similar>
+    <similar tag="η">
+        <value>\\eta</value>
+    </similar>
+    <similar tag="等价于">
+        <value>\\Leftrightarrow</value>
+    </similar>
+    <similar tag="∵">
+        <!--<value>因为</value>-->
+        <value>\\because</value>
+        <value>because</value>
+    </similar>
+    <similar tag="∴">
+        <!--<value>所以</value>-->
+        <value>\\therefore</value>
+        <value>therefore</value>
+    </similar>
+
+    <similar tag="...">
+        <value>\\cdots(?!(in|(\\cdots|)(①|②|③|④|⑤)))</value>
+        <value>\\ldots</value>
+        <value>……</value>
+        <value>…</value>
+    </similar>
+    <similar tag="*">
+        <value>•</value>
+        <value>×</value>
+        <value>\\centerdot</value>
+        <value>\\dot</value>
+        <value>\\times</value>
+        <value>\\ast</value>
+        <value>\\bullet</value>
+        <value>⋅</value>
+        <value>·</value>
+    </similar>
+
+    <similar tag="·">
+        <value>\\cdot(?!s)</value>
+    </similar>
+
+    <similar tag="/">
+        <value>\\div</value>
+        <value>÷</value>
+        <value>\\slash</value>
+        <value>\\backslash</value>
+    </similar>
+    <similar tag="sin">
+        <value>\\sin</value>
+    </similar>
+    <similar tag="cos">
+        <value>\\cos</value>
+    </similar>
+    <similar tag="tan">
+        <value>\\tan</value>
+    </similar>
+    <similar tag="cot">
+        <value>\\cot</value>
+    </similar>
+    <similar tag="csc">
+        <value>\\csc</value>
+    </similar>
+    <similar tag="∝">
+        <value>\\propto</value>
+    </similar>
+    <similar tag="sec">
+        <value>\\sec</value>
+    </similar>
+    <similar tag="lg">
+        <value>\\lg</value>
+    </similar>
+    <similar tag="log">
+        <value>\\log</value>
+    </similar>
+    <similar tag="ln">
+        <value>\\ln</value>
+    </similar>
+    <similar tag="∧">
+        <value>\\wedge</value>
+    </similar>
+    <similar tag="∨">
+        <value>\\vee</value>
+    </similar>
+    <similar tag="±">
+        <value>\\pm</value>
+        <value>\\mp</value>
+    </similar>
+    <similar tag="；">
+        <value>;</value>
+    </similar>
+    <similar tag=",">
+        <!--        <value>，</value>-->
+        <!--        <value>，</value>-->
+        <!--<value>顿号的注释原因：XKB2201305W，左右焦点</value>-->
+        <!--        <value>、</value>-->
+        <!--        <value>﹑</value>-->
+        <!--        <value>;</value>-->
+        <!--        <value>；</value>-->
+        <value>．</value>
+        <!--        <value>\?</value>-->
+        <!--        <value>？</value>-->
+        <!--        <value>有如下性质\:</value>-->
+    </similar>
+    <similar tag=":">
+        <value>：</value>
+    </similar>
+    <similar tag="α">
+        <value>\\alpha</value>
+        <value>alpha</value>
+    </similar>
+    <similar tag="λ">
+        <value>\\lambda</value>
+        <value>lambda</value>
+    </similar>
+    <similar tag="θ">
+        <value>\\theta</value>
+        <value>(theta)</value>
+    </similar>
+    <similar tag="∂">
+        <value>\\partial</value>
+    </similar>
+    <similar tag="≫">
+        <value>\\gg</value>
+    </similar>
+    <similar tag="≪">
+        <value>\\ll</value>
+    </similar>
+    <similar tag=":">
+        <value>\\colon</value>
+    </similar>
+    <similar tag="ρ">
+        <value>\\rho</value>
+        <!--<value>rho</value>-->
+    </similar>
+    <similar tag="β">
+        <value>\\beta</value>
+        <value>beta</value>
+    </similar>
+
+
+    <similar tag="γ">
+        <value>\\gamma</value>
+        <value>gamma</value>
+    </similar>
+    <similar tag="η">
+        <value>\\varepsilon</value>
+        <value>\\epsilon</value>
+        <value>epsilon</value>
+    </similar>
+    <similar tag="δ">
+        <value>\\Delta</value>
+        <value>Δ</value>
+        <value>delta</value>
+    </similar>
+    <similar tag="ω">
+        <value>\\omega</value>
+        <value>\\Omega</value>
+        <value>omega</value>
+    </similar>
+    <similar tag="φ">
+        <value>\\varphi</value>
+        <value>varphi</value>
+    </similar>
+    <similar tag="ϕ">
+        <value>\\phi</value>
+        <value>phi</value>
+    </similar>
+    <similar tag="μ">
+        <value>\\mu</value>
+        <value>mu</value>
+    </similar>
+    <similar tag="⌒">
+        <value>\\widehat</value>
+        <value>\\hat</value>
+    </similar>
+    <similar tag="→">
+        <value>\\to</value>
+    </similar>
+    <similar tag="z轴">
+        <value>z坐标轴</value>
+    </similar>
+    <similar tag="抛物线">
+        <!--<value>二次函数图象</value>-->
+        <!--<value>二次函数的图象</value>-->
+        <!--&lt;!&ndash;不知道为啥加图像二字有需求改bug coordinateOnFunction 与 pointOnPara 融合&ndash;&gt;-->
+        <value>二次函数</value>
+    </similar>
+    <similar tag="直线">
+        <value>一次函数</value>
+    </similar>
+
+    <similar tag="错误">
+        <value>不成立</value>
+    </similar>
+
+    <similar tag="[">
+        <value>【</value>
+    </similar>
+    <similar tag="]">
+        <value>】</value>
+    </similar>
+
+    <!-- 特殊问题，暂时处理  	-->
+    <similar tag="_">
+        <value>_{2,}</value>
+    </similar>
+    <similar tag="cm">
+        <value>㎝</value>
+    </similar>
+    <similar tag="(1)">
+        <value>⑴</value>
+        <value>\(Ⅰ\)</value>
+        <value>\(I\)</value>
+        <value>\(i\)</value>
+    </similar>
+    <similar tag="(2)">
+        <value>⑵</value>
+        <value>\(Ⅱ\)</value>
+        <value>\(II\)</value>
+        <value>\(ii\)</value>
+    </similar>
+    <similar tag="(3)">
+        <value>⑶</value>
+        <value>\(iii\)</value>
+        <value>\(Ⅲ\)</value>
+        <value>\(III\)</value>
+    </similar>
+    <similar tag="图象">
+        <value>图像</value>
+    </similar>
+    <similar tag="lim">
+        <value>\{\\mathop\{\\lim\}\}\\,</value>
+        <!-- 对极限符号还需要进一步处理 -->
+        <value>\\lim</value>
+    </similar>
+    <similar tag=" ">
+        <value>　</value>  <!-- 将中文的空格替换为英文 -->
+    </similar>
+</root>
